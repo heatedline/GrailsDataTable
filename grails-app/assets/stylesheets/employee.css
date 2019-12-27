@@ -1,0 +1,13 @@
+#idTableTitle {
+    color: red;
+    text-align: center;
+    margin-top: 1px;
+}
+
+div.DTS div.dataTables_scrollBody {
+    background: #ffffff;
+}
+
+#employee_dt_filter {
+    display: none;
+}
