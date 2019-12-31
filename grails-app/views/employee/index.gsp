@@ -59,7 +59,7 @@
     <g:javascript>
         $('#employee_dt tfoot th').each( function() {
             var title = $(this).text();
-            if (title == 'Extension' || title == 'Hired')
+            if (title === 'Extension' || title === 'Hired')
                 $(this).html('<input type="text" size="8" placeholder="' + title + '?" />');
             else
                 $(this).html('<input type="text" size="15" placeholder="' + title + '?" />');
@@ -68,7 +68,7 @@
         var table = $('#employee_dt').DataTable( {
             "scrollY": 500,
             "deferRender": true,
-            "scroller": true,
+            //"scroller": true,
             //"dom": "Brtip",
             //"buttons": [ 'copy', 'csv', 'excel', 'pdf', 'print' ],
             "processing": true,

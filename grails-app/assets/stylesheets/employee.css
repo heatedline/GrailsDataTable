@@ -11,3 +11,9 @@ div.DTS div.dataTables_scrollBody {
 #employee_dt_filter {
     display: none;
 }
+
+.dataTables_scrollBody {
+    height: auto !important;
+    width: 100%;
+    max-height: 500px !important;
+}
